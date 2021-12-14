@@ -1,5 +1,4 @@
 import random
-import lasvegas_game
 
 def jogar_forca():
     #Introdução do jogo

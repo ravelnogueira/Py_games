@@ -1,4 +1,6 @@
 import lasvegas_game
+import forca_game
+
 asteristicos = "*****************************"
 print(asteristicos)
 print("Escolha seu jogo")
@@ -12,5 +14,5 @@ while (i > 0):
         lasvegas_game.jogar_las_vegas()
         break
     if (escolha == 2):
-        tentativas_total = 5
+        forca_game.jogar_forca()
         break
